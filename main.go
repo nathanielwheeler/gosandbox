@@ -1,4 +1,4 @@
-package gosandbox
+package main 
 
 import "fmt"
 
