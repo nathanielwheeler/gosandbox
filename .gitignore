@@ -1,1 +1,24 @@
+# binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin
+obj
+
+# node
+node_modules
+
+# test binary
+*.test
+
+# environment variables
+.env
+
+# mac hidden file
 .DS_Store
+
+# editor files
+.vscode
+.atom
