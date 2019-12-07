@@ -18,16 +18,17 @@ func main() {
 	// Go allows you to create your own 'types'
 	type intType int
 	var exampleIntType intType
-	int exampleInt
+	var exampleInt int
 
 	exampleIntType = 42
 	exampleInt = 43
 
-	fmt.Printf("%T", exampleIntType) // => main.intType
+	// fmt.Printf("%T", exampleIntType) // => main.intType
+
+	fmt.Println(exampleInt)
 
 	// Now, if I were to make a normal int and try to assign that to the variable exampleIntType,
 	//	go will prevent this.  It must be exlicitly converted.  (Not casting, that isn't a thing in go.)
 	exampleInt = int(exampleIntType) // => 42
 
-	
 }
